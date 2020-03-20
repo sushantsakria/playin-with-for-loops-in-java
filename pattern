@@ -27,7 +27,21 @@ System.out.println(n);
     }
     System.out.println("");
 
+
   }
   }
 }
 }
+
+ /*
+ example ->
+ //(if n=1)
+   *
+  **
+ ***
+****
+    *
+    **
+    ***
+    ****
+*/
