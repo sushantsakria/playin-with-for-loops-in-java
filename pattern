@@ -1,0 +1,33 @@
+class Main {
+  public static void main(String args[]) {
+     
+int n=Integer.parseInt(args[1]);
+System.out.println(n);
+  for(int x=0;x<n;x++)
+  {
+  for(int i=4;i>0;i--)
+  {
+    for(int j=0;j<i-1;j++)
+    {
+      System.out.print(" ");
+    }
+    for(int k=4;k>i-1;k--)
+    {
+     System.out.print("*");
+    }
+    System.out.println("");
+    
+  }
+  for(int j=4;j>0;j--)
+  {
+    System.out.print("    ");
+    for(int i=4;i>j-1;i--)
+    {
+      System.out.print("*");
+    }
+    System.out.println("");
+
+  }
+  }
+}
+}
